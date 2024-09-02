@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /*Ajustando a barra de navegação*/
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            
+        }
+        li{float: left;}
+
+        /*Estilizando a barra de navegação*/
+        li a{
+            display: block;
+            color: white;
+            background-color: rgb(43, 43, 44);
+            padding: 20px 162px;
+            text-decoration: none; 
+            font-size: 16px;
+        }
+        
+        /*Estilizando o fundo so site*/
+        body{
+            background-size: 100%;
+            background-color: rgb(58, 58, 59);
+            background-image: url(fundo.jpg);
+        }
+        
+        /*Estilizando título "alguns dos me trabalho"*/
+       .titulo{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 10%;
+        left:25% ;
+        font-size: 50px;
+        
+       }
+       /*Estilizando o título "som e iluminação"*/
+       .titulo2{
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 32%;
+       }
+
+       /*Estilizando o título "musica na casa"*/
+       .titulo3{
+        color: white;
+        position: absolute;
+        top: 125%;
+        left: 37%;
+       }
+       /*Estilizando o título "workshop"*/
+       .titulo4{
+        color: white;
+        position: absolute;
+        top: 283%;
+        left: 43%;
+       }
+
+       /* Ajuste Imagem show lucas 1*/
+       .img1{
+        width: 700px;
+        height: 800px;
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        
+       }
+
+       /* Ajuste Imagem show lucas 2*/
+       .img2{
+        width: 700px;
+        height: 800px;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+       }
+
+       /*Ajuste imagem musica na casa*/
+       .img3{
+        width: 60%;
+        position: absolute;
+        top: 130%;
+        left: 18%;
+       }
+
+       /*Ajuste imagem musica na casa 2*/
+       .img4{
+        width: 60%;
+        position: absolute;
+        top: 207%;
+        left: 18%;
+       }
+
+       /*Ajuste imagem workshop*/
+       .img5{
+        width: 60%;
+        height: 60%;
+        position: absolute;
+        top: 290%;
+        left: 18%;
+       }
+
+       /*Ajuste botao inicio*/
+       .logo{
+        height: 65px;
+        text-decoration: none;
+        display: block;
+        position: absolute;
+        left: 1%;
+       }
+    </style>
+</head>
+<body>
+    <!--Barra de navegação-->
+    <header>
+        <nav class="barra">
+            <ul>
+                <li><a href="sobre.html">SOBRE MIM</a></li>
+                <li><a href="formação.html">FORMAÇÃO</a></li>
+                <li><a href="portifolio.html">PORTIFÓLIO</a></li>
+                <li><a href="contato1.html">CONTATO</a></li>
+            </ul>
+            <a href="index.html">
+                <img class="logo" src="logo.png" alt="logo">
+            </a>
+        </nav>
+    </header>
+
+    <!--Títulos e imagens do site-->
+    <h1 class="titulo">ALGUNS DOS MEUS TRABALHOS</h1>
+    <h2 class="titulo2">SOM E ILUMINAÇÃO DO CRUZES LUCAS O SHOW</h2>
+        
+    <img class="img1" src="show-lucas1.jpg" alt="show-lucas1">
+    <img class="img2" src="show-lucas4.jpg" alt="show-lucas4">
+
+
+    <h2 class="titulo3">MÚSICA NA CASA DA CULTURA</h2>
+    <img class="img3" src="aquino.jpg" alt="aquino">
+    <img class="img4" src="trio.jpg" alt="trio">
+
+    <h2 class="titulo4">WORKSHOPS</h2>
+    <img class="img5" src="workshop.jpg" alt="workshop">
+
+</body>
+</html>

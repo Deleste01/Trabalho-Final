@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            
+        }
+        li{float: left;}
+
+        /*Estilizando a barra de navegação*/
+        li a{
+            display: block;
+            color: white;
+            background-color: rgb(43, 43, 44);
+            padding: 20px 164px;
+            text-decoration: none; 
+            font-size: 16px;
+            
+        }
+        
+        /*Foto de fundo do site*/
+        body{
+            background-color: rgb(58, 58, 59);
+            background-size: 100%;
+            background-image: url(fundo.jpg);
+        }
+        
+        /*Estilizando e ajustando o nome e aluno*/
+        .nome{
+            position: absolute;
+            top: 22%;
+            left: 63%;
+            font-size: 35px;
+            color: white;
+        }
+        .aluno{
+            position: absolute;
+            top: 35%;
+            left: 63%;
+            font-size: 25px;
+            color: white;  
+        }
+
+        /*Estilizando e ajustando o texto*/
+        .texto{
+            position: absolute;
+            top: 50%;
+            left: 63%;
+            font-size: 23px;
+            color: white;
+        }
+        
+        .minha-foto {
+            text-align: left; /* Centralizando o conteúdo dentro do contêiner */
+        }
+        .minha-foto {
+            width: 400px;
+            border-radius: 60px;
+            position: absolute;
+            left: 8%;
+            top: 22%;
+        }
+        .insta{
+            width: 60px;
+            position: absolute;
+            top: 42%;
+            left: 63%;
+            
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <!--Barra de navegação-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">SOBRE MIM</a></li>
+                <li><a href="formação.html">FORMAÇÃO</a></li>
+                <li><a href="portifolio.html">PORTIFÓLIO</a></li>
+                <li><a href="contato1.html">CONTATO</a></li>
+            </ul>
+        </nav>    
+    </header>
+    
+    <!--Títulos do site-->
+    <div class="nome">  
+        <h1>Gustavo Vieira</h1>
+    </div>
+    
+    <div class="aluno">
+        <p>Aluno</p>
+        
+    </div>
+
+
+    <!--Texto de Apresentação-->
+    <div class="texto">
+        <p>Olá! Meu nome é Gustavo. Desenvolvi esta página como parte do meu trabalho em Desenvolvimento Web. Aqui, você encontrará informações sobre mim.</p>
+    </div>
+
+
+    <!--Imagem com link do meu instagram-->
+    <div>
+        <a href="https://www.instagram.com/gudeleste/profilecard/?igsh=MWVnbXM3cmMza3Ni">
+            <img class="insta" src="1658586823instagram-logo-transparent.webp" alt="link">
+        </a>
+    </div>
+
+
+    <!--Minha foto-->
+    <div>
+        <img class="minha-foto" src="foto-inicio.jpeg" alt="Imagem centralizada">
+    </div>
+    
+</body>
+</html>
